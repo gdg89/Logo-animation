@@ -1,0 +1,97 @@
+html, body{
+	margin:0;
+	padding: 0;
+	background:black;
+}
+/******** Logo Run *********/
+#container1{
+	width: 100%;
+	height: 450px;
+	
+	background:white;
+	overflow: hidden;
+}
+#logo{
+	width:150px;
+	height: 150px;
+	background:#2EFEF7;
+	padding:30px;
+	box-sizing: border-box;
+	margin:20px 20px;
+	border-radius: 15px;
+}
+#logo a{
+	color: white;
+	text-decoration: none;
+
+}
+#logo{
+	transform-origin:0 145px; 
+	animation-name: logo;
+	animation-duration: 8s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+}
+
+/****** animation Logo run ***/
+@keyframes logo{
+	0%{
+		margin-left:20px; 
+		transform: rotateZ(0deg);
+		
+		}
+	15%{
+		
+		transform: rotateZ(0deg);
+
+	}
+	20%{
+
+		transform: rotateZ(0deg);
+		 
+	}
+	
+
+	25%{
+		margin-left:800px;
+		transform: rotateZ(150deg);
+
+	}
+	38%{
+		transform: rotateZ(90deg);
+	}
+	50%{
+		transform: rotateZ(140deg);
+
+
+	}
+	63%{
+		transform: rotateZ(90deg);
+	}
+
+	75%{
+		transform: rotateZ(130deg);
+	}
+	88%{
+		transform: rotateZ(90deg);
+	}
+
+	
+	95%{
+		
+		transform: rotateZ(120deg);
+				margin-left:800px;
+		
+
+		}
+	100%{
+		transform: rotateZ(120deg);
+		transform: translateY(300%);
+		margin-left:800px;
+
+
+	}
+
+}
